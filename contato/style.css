@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(241, 187, 241) !important;
+}
+
+.contactDiv{
+  background-color:  rgb(241, 187, 241);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.leftContact, .rightContact{
+  background-color: rgb(241, 187, 241);
+  width: 100%;
+}
+
+#mensagem{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.msg{
+  font-family: 'Quicksand', sans-serif;
+  margin: 1rem;
+}
+
+.msg_button{
+  margin: 0.5rem;
+  width: 5rem;
+  border-radius: 3px;
+}
+
+.mensagem{
+  width: 20rem;
+  height: 10rem;
+  border-radius: 3px;
+}
